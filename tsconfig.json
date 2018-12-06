@@ -2,7 +2,7 @@
   "compilerOptions": {
     "outDir": "./dist/",
     "allowJs": true,
-    "rootDir": "./",
+    "rootDir": "./src",
     "sourceMap": true,
     "noImplicitAny": false,
     "target": "es5",
@@ -17,6 +17,6 @@
     "lib": ["es6", "es2017", "esnext.asynciterable"],
     "typeRoots": ["node_modules/@types"]
   },
-  "include": ["./src/**/*.ts"],
-  "exclude": ["**/*.test.*"]
+  "include": ["./**/*.ts"],
+  "exclude": ["**/*.test.*", "**/__tests__/**"]
 }
