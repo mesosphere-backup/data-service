@@ -1,6 +1,10 @@
 {
   "name": "@dcos/data-service",
   "main": "./dist/index.js",
+  "typings": "dist/index",
+  "files": [
+    "dist"
+  ],
   "version": "0.0.0-dev+semantic-release",
   "license": "Apache-2.0",
   "publishConfig": {
