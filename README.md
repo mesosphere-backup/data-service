@@ -42,14 +42,14 @@ This example is an extract from [DC/OS UI](https://github.com/dcos/dcos-ui/).
 import React from "react";
 import { Observable } from "rxjs";
 
-// Recompose helps handle data down and event up as streams
-import {
-  createEventHandler,
-  componentFromStream
-} from "data-service/recomposeRx";
 
-// Our in-house solution to resolve graphql queries using streams
-import { graphqlObservable } from "data-service/graphqlObservable";
+import {
+  // Recompose helps handle data down and event up as streams
+  createEventHandler,
+  componentFromStream,
+  // Our in-house solution to resolve graphql queries using streams
+  graphqlObservable
+} from "@dcos/data-service";
 
 // tools to make easier to create schemas and queries
 import { makeExecutableSchema } from "graphql-tools";
