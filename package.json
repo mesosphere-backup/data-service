@@ -21,7 +21,7 @@
     "graphql-tag": "2.8.0",
     "graphql-tools": "4.0.3",
     "recompose": "0.26.0",
-    "rxjs": "6.6.3"
+    "rxjs": "6.3.3"
   },
   "devDependencies": {
     "@types/graphql": "14.0.2",
@@ -41,7 +41,7 @@
     "typescript": "3.2.1"
   },
   "dependencies": {
-    "reactive-graphql": "^1.0.0",
+    "reactive-graphql": "^2.0.0",
     "symbol-observable": "^1.2.0"
   }
 }
