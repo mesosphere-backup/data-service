@@ -17,11 +17,11 @@
     "build": "tsc -p tsconfig.dist.json"
   },
   "peerDependencies": {
-    "graphql": "14.0.2",
-    "graphql-tag": "2.8.0",
-    "graphql-tools": "4.0.3",
-    "recompose": "0.26.0",
-    "rxjs": "6.3.3"
+    "graphql": "^14.0.2",
+    "graphql-tag": "^2.8.0",
+    "graphql-tools": "^4.0.3",
+    "recompose": "^0.26.0",
+    "rxjs": "^6.3.3"
   },
   "devDependencies": {
     "@types/graphql": "14.0.2",
